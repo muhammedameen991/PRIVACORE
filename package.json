@@ -1,0 +1,16 @@
+{
+  "name": "privacore",
+  "version": "1.0.0",
+  "description": "PRIVACORE — Open-source privacy, network diagnostics, encryption, and security-awareness toolkit.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "build": "node scripts/validate.js",
+    "lint": "node scripts/validate.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
